@@ -1,0 +1,30 @@
+.navigation__unorderedList {
+    list-style-position: inside;
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+}
+
+.navigation {
+    padding: 20px 30px;
+    border-style: none;
+    background-color: rgb(31, 30, 29);
+    max-width: 100%;
+    margin-top: 0px;
+}
+
+.navigation__linkNavigation {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation__linkNavigation:hover {
+    color: rgb(255, 174, 0);
+}
+
+.navigation__listItem {
+    padding: 5px 25px;
+    display: inline-block;
+    text-align: center;
+}

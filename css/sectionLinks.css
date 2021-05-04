@@ -1,0 +1,29 @@
+.sectionLinks__subHeader {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 30, 29);
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+.sectionLinks__orderedList {
+    list-style-position: inside;
+}
+
+.sectionLinks__linkExternal {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sectionLinks__linkExternal:hover {
+    color: red;
+    outline: none;
+}
+
+.sectionLinks__linkExternal:focus {
+    outline: 2px solid currentColor;
+}

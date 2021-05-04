@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgb(31, 30, 29);
+    padding: 25px;
+}
+
+.showAuthor {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-color: blanchedalmond;
+    background-color: rgb(31, 30, 29);
+}
+
+.footer__rights {
+    text-align: left;
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.footer__rights--owner {
+    color: rgb(255, 216, 164);
+}
