@@ -1,5 +1,7 @@
-console.log("Salud!")
-
+function welcome() {
+    console.log("Salud!")
+}
+welcome();
 
 let sectionAbstract__hidden = document.querySelector(".sectionAbstract__hidden");
 let sectionAbstract__dots = document.querySelector(".sectionAbstract__dots");
@@ -25,12 +27,11 @@ let sectionIdea__moreButton = document.querySelector(".sectionIdea__moreButton")
 let sectionIdea__readMore = document.querySelector(".sectionIdea__readMore");
 
 
-let sectionInspirations__photo1 = document.querySelector(".sectionInspirations__photo1");
+
 let sectionInspirations__photo2 = document.querySelector(".sectionInspirations__photo2");
 let sectionInspirations__photo3 = document.querySelector(".sectionInspirations__photo3");
 let sectionInspirations__photo4 = document.querySelector(".sectionInspirations__photo4");
 let sectionInspiration__hidden = document.querySelector(".sectionInspiration__hidden");
-let sectionInspirations__showButton1 = document.querySelector(".sectionInspirations__showButton1");
 let sectionInspirations__showButton2 = document.querySelector(".sectionInspirations__showButton2");
 let sectionInspirations__showButton3 = document.querySelector(".sectionInspirations__showButton3");
 let sectionInspirations__showButton4 = document.querySelector(".sectionInspirations__showButton4");
@@ -39,16 +40,19 @@ let sectionInspirations__showButton4 = document.querySelector(".sectionInspirati
 let footer__showAuthor = document.querySelector(".footer__showAuthor");
 
 
+const visibilityInspirationOne = () => {
+    let sectionInspirations__photo1 = document.querySelector(".sectionInspirations__photo1");
+    let sectionInspirations__showButton1 = document.querySelector(".sectionInspirations__showButton1");
 
-
-sectionInspirations__showButton1.addEventListener("click", () => {
     sectionInspirations__photo1.classList.toggle("sectionInspirations__active");
     if (sectionInspirations__showButton1.innerText == "Pokaż") {
         sectionInspirations__showButton1.innerText = "Ukryj";
     } else {
         sectionInspirations__showButton1.innerText = "Pokaż";
     }
-});
+};
+
+sectionInspirations__showButton1.addEventListener("click",visibilityInspirationOne);
 
 sectionInspirations__showButton2.addEventListener("click", () => {
     sectionInspirations__photo2.classList.toggle("sectionInspirations__active");
